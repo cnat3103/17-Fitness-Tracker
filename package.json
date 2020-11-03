@@ -1,0 +1,27 @@
+{
+  "name": "17-fitness-tracker",
+  "version": "1.0.0",
+  "description": "A fitness tracking app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeders/seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cnat3103/17-Fitness-Tracker.git"
+  },
+  "author": "cnat3103",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cnat3103/17-Fitness-Tracker/issues"
+  },
+  "homepage": "https://github.com/cnat3103/17-Fitness-Tracker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.11",
+    "morgan": "^1.10.0"
+  }
+}
